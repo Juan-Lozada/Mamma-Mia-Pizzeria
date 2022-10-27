@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, Card, Row, Col } from 'react-bootstrap';
+import '../Css/cart.css'
 
 export default function Cart(props) {
 
@@ -11,7 +12,7 @@ export default function Cart(props) {
   return (
     <div className='d-flex flex-column text-center p-5'>
       <h2 className='pb-5'>ORDEN</h2>
-      <div>{cartItems.length === 0 && <div>Cart is empty</div>} </div>
+      <div >{cartItems.length === 0 && <div className='empty d-flex flex-column justify-content-center'>Cart is empty</div>} </div>
       <Row xs={3} md={4} className="g-4 p-3">
         {cartItems.map((item) => (
           <Col>

@@ -6,7 +6,7 @@ import {NavLink} from 'react-router-dom'
 export default function FooterComponent() {
     return (
         <>
-            <footer className="page-footer font-small  pt-2 bg-light text-light fixed-bottom ">
+            <footer className="page-footer font-small  pt-2 bg-light text-light ">
                 <Container className='d-flex flex-column justify-content-center text-dark'>
                     <div className="container-fluid text-center text-md-left">
                         <div className="row">

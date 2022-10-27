@@ -34,7 +34,7 @@ export default function Pizza(props) {
 
 
   return (
-    <Container className='justify-content-center align-center p-5'> 
+    <Container className='producto justify-content-center align-center p-5'> 
       <Row className='p-5 m-auto '>
         <Col>
           <div class="product__photo">
@@ -45,7 +45,7 @@ export default function Pizza(props) {
             </div>
           </div>
         </Col>
-        <Col className='text-center p-2'>
+        <Col className='text-center'>
           <div class="product__info">
             <div class="title" className='text-dark'>
               <h1>{pizza.name}</h1>
